@@ -1,0 +1,9 @@
+.content{
+    background: #F0DCC2;
+    height: 100vh;
+}
+.content__sec{
+    border: 1px solid orangered;
+    max-width: 1184px;
+    margin: auto;
+}

@@ -1,0 +1,6 @@
+.row{
+    height: 20px;
+    background: rgb(205, 204, 204);
+    display: flex;
+    margin: auto;
+}

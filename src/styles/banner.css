@@ -1,0 +1,20 @@
+.banner{
+    width: 100%;
+    height: max-content;
+    background: #F0DCC2;
+    display: block;
+}
+.banner__div{
+    max-width: 1184px;
+    align-self: center;
+    margin: auto;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner__gif{
+    padding: 30px 0px;
+align-self: center;
+    width: 100%;
+    background: url(/src/assets/Adidas-top-strip.gif);
+}
