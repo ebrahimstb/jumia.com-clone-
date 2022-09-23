@@ -1,0 +1,14 @@
+.secondpage{
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 18px;
+}
+
+.secondpage section{
+    border-radius: 7px;
+    width: 100%;
+    height: 187px;
+    background: white;
+    background-color: white;
+}

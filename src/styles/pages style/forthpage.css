@@ -1,0 +1,66 @@
+
+.forthpage{
+    height: 319.33px;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    max-width: 1184px;
+    padding-bottom: 18px;
+    border: 7px;
+}
+.main__forthpage{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 319.33px;
+    max-width: 1184px;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.flashsales{
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    height: 48px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.fs{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+}
+.fs i{
+    color: orange;
+}
+.fs h2{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.tl{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tl h2{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-right: 5px;
+}
+.tl span{
+ font-weight: 900;
+}
+.sa{
+    padding-right: 50px;
+}
+.sa h2{
+    font-size: 1rem;
+    font-weight: 500;
+}

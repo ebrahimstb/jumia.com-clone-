@@ -1,0 +1,82 @@
+.eightpage a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.eightpage div{
+    border-radius: 7px;
+
+}
+.eightpage{
+    width: 1184px;
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+}
+.eight__1{
+    cursor: pointer;
+    height: 56px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.eight__1 div{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.eight__2{
+    cursor: pointer;
+    height: 56px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+}
+.eight__2 div{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.eight__3{
+    height: 56px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+.eight__3 div{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.eight__4{
+    height: 56px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+.eight__4 div{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    margin-left: 15px;
+    margin-right: 20px;
+}

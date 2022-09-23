@@ -1,0 +1,47 @@
+.eleventhpage{
+    margin-bottom: 18px;
+    border-radius: 7px;
+}
+
+.eleventhpage section{
+    border-radius: 7px;
+    height: 319.33px;
+    background-color: white ;
+}
+.eleventhpage__header{
+    background-color: rgb(249, 218, 222);
+    height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px 7px 0px 0px;
+}
+.td1{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.td1 h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.td1 span{
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.td2{
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+.td2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-right: 5px;
+}
+.td2 i{
+    font-weight: 1900 !important;
+    align-self: center;
+}

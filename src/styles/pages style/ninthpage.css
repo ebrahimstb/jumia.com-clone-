@@ -1,0 +1,59 @@
+.ninthpage{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.ninthpage a{
+    text-decoration: none;
+    color: black;
+}
+.main__ninthpage{
+    min-height: 346.44px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.sfc{
+    min-height: 48px;
+    width: 100%;
+    background-color: pink;
+    font-size: 1.4rem;
+    font-weight: 500;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Ninthpage__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 8px;
+}
+.Ninthpage__cards p{
+    text-overflow: ellipsis;
+}
+.ninthpage__cards a{
+    display: block;
+    min-height: 137.22px;
+    width: 184px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.npi1{
+    height: 102.22px;
+    width: 184px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.npi1:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}

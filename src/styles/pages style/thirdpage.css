@@ -1,0 +1,32 @@
+.thirdpage{
+    height: 319.33px;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 18px;
+    max-width: 1184px;
+    padding-bottom: 18px;
+}
+.main__thirdpage{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 319.33px;
+    max-width: 1184px;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.topselling{
+    height: 48px;
+    width: 1168px;
+    background: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.topselling h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-self: center;
+}

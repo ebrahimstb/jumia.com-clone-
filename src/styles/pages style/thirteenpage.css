@@ -1,0 +1,47 @@
+.thirteenpage{
+    margin-bottom: 18px;
+    border-radius: 7px;
+}
+
+.thirteenpage section{
+    border-radius: 7px;
+    height: 319.33px;
+    background-color: white ;
+}
+.thirteenpage__header{
+    background: #FEE2CC;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px 7px 0px 0px;
+}
+.sh1{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.sh1 h2{
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+.sh1 span{
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.sh2{
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+.sh2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-right: 5px;
+}
+.sh2 i{
+    font-weight: 1900 !important;
+    align-self: center;
+}

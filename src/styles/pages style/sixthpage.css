@@ -1,0 +1,24 @@
+.sixthpage{
+    margin-bottom: 18px;
+
+}
+.sixthpage__ads{
+    border-radius: 7px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 268.44px;
+}
+.sixthpage .freedelivery{
+    border-radius: 7px;
+    width: 378.44px;
+    height: 252.44px;
+    background-image: url(/src/assets/378x252_copy_24\ \(1\).jpg);
+}
+.sixthpage .freedelivery:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.1s;
+
+}

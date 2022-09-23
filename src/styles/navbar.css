@@ -1,6 +1,5 @@
 .navbar{
     height: 72px;
-    border: 1px solid red;
     background: white;
     display: flex;
     flex-direction: row;
@@ -9,7 +8,6 @@
     align-items: center;
 }
 .navbar section{
-    border: 1px solid crimson;
     width: 1184px;
     margin: auto;
     display: flex;
@@ -61,7 +59,6 @@
     max-width: 100px;
 }
 .main__sign{
-    border: 1px solid yellowgreen;
     font-family: sans-serif;
     display: flex;
     justify-content: space-between;

@@ -1,6 +1,6 @@
 .content{
     background: #F0DCC2;
-    height: 100vh;
+    min-height: 100%;
 }
 .content__sec{
     border: 1px solid orangered;
