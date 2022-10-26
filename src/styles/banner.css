@@ -13,8 +13,9 @@
     text-decoration: none;
 }
 .banner__gif{
-    padding: 30px 0px;
-align-self: center;
+    height: 60px;
+    background-repeat: no-repeat;
+    align-self: center;
     width: 100%;
     background: url(/src/assets/Adidas-top-strip.gif);
 }

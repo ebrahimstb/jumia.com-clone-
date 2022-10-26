@@ -1,11 +1,15 @@
 .navbar{
     height: 72px;
+    width: 100vw;
     background: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     align-items: center;
+    position: sticky !important;
+    top: 0px;
+    z-index: 12;
 }
 .navbar section{
     width: 1184px;
@@ -17,15 +21,14 @@
     align-items: center;
 }
 .jumia__logo{
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    height: 30px;
+    width: 134px;
+    background-image: url(/src/assets/jumia\ logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.jumia__logo span{
-    color: orange;
-    font-size: 1.4rem;
-}
+
 .search{
     margin-right: -50px;
     display: flex;

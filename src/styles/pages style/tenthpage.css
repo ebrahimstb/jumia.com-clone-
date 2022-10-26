@@ -39,8 +39,23 @@
     background-color: grey;
     width: 372px;
     height: 252px;
-    background-image: url(/src/assets/378x252_copy_24\ \(1\).jpg);
+    background-image: url(/src/assets/th_378x252.gif);
 }
+.tenthpage a:nth-child(2) .freedelivery{
+    border-radius: 7px;
+    background-color: grey;
+    width: 372px;
+    height: 252px;
+    background-image: url(/src/assets/jtw_378x252.png);
+}
+.tenthpage a:last-child .freedelivery{
+    border-radius: 7px;
+    background-color: grey;
+    width: 372px;
+    height: 252px;
+    background-image: url(/src/assets/checkin_378x252.png);
+}
+
 .tenthpage .freedelivery:hover{
     transition: ease-in-out 0.1s;
     transform: scale(1.1);

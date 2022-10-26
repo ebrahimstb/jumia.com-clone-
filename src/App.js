@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './components/banner';
+import Footer from './components/footer';
 import Contents from './components/home';
 import Navbar from './components/navbar';
 import Row from './components/row';
@@ -11,6 +12,7 @@ function App() {
       < Row />
       < Navbar />
       < Contents />
+      <Footer />
     </div>
   );
 }

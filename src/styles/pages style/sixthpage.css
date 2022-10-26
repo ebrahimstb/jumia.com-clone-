@@ -15,10 +15,16 @@
     border-radius: 7px;
     width: 378.44px;
     height: 252.44px;
-    background-image: url(/src/assets/378x252_copy_24\ \(1\).jpg);
+    background-image: url(/src/assets/official-stores_378x252.png);
 }
 .sixthpage .freedelivery:hover{
     transform: scale(1.1);
     transition: ease-in-out 0.1s;
 
+}
+#freli1{
+    background-image: url(/src/assets/220.jpg);
+}
+#freli2{
+    background-image: url(/src/assets/220side.png);
 }

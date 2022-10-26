@@ -1,0 +1,173 @@
+.seventeenpage{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.seventeenpage a{
+    text-decoration: none;
+    color: black;
+}
+.main__seventeenpage{
+    border-radius: 7px;
+    max-height: 276.44px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.offst{
+    min-height: 48px;
+    width: 100%;
+    background-color: #E2F5FF;
+    font-size: 1.4rem;
+    font-weight: 500;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.seventeenpage__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.seventeenpage__cards a{
+    display: block;
+    width: 184px;
+    cursor: pointer;
+    padding-bottom: 9px;
+}
+.ofst1{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/umidigi_260x144v2\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst2{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/oraimo_260x144.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst3{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/samsung_260x144.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst4{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/coca-cola_260x144v2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst5{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/xiaomi_260x144v2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst6{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/pernod-ricard_260x144.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst7{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/adidas_260x144v3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst8{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/apple_260x144.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst9{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/hp_260x144.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst10{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/unilever_260x144v3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst11{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/defacto_260x144v3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.ofst12{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/defacto_260x144v3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.seventeenpage__cards a:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(25, 24, 24, 0.2);
+}

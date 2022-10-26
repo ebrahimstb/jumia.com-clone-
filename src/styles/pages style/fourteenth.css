@@ -1,0 +1,78 @@
+.fourteenthpage{
+    margin-top: 18px;
+}
+.main__fourteenthpage{
+    border-radius: 7px;
+    min-height: 355.06px;
+    width: 100%;
+    background-color: rgb(74, 210, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offst{
+    display: flex;
+    height: 48px;
+    background-color: #E2F5FF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+.offst_content{
+    min-height: 307.06px;
+    min-width: 934px;
+}
+.offst_slider div {
+    padding: 0px;
+    display: flex;
+}
+.offst_slider div img{
+    display: block;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
+.offst_slider {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.fourteenthpage .slick-dots li button:before {
+    font-size: 6px;
+    line-height: 0px;
+    position: absolute;
+    top: -15px;
+    width: 10px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+.fourteenthpage .slick-next {
+    right: 25px;
+    display: none;
+}
+.fourteenthpage .slick-prev {
+    left: 25px;
+    width: 50px;
+    z-index: 10;
+    display: none;
+}
+.fourteenthpage .slick-next:hover{
+    background: rgb(107, 105, 105);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.fourteenthpage .slick-prev:hover, .slick-next:hover{
+    background: rgb(107, 105, 105);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}

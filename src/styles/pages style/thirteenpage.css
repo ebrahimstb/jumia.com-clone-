@@ -45,3 +45,85 @@
     font-weight: 1900 !important;
     align-self: center;
 }
+.thirteenpage__slider{
+    width: 1168px;
+    height: 271.33px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+.thirteen__slider{
+    width: 100%;
+    display: block;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+.thirteen__card{
+    height: 263.33px;
+    width: 193.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    padding:0px 0px 0px 5px;
+}
+
+.thirteen__card a{
+    position: relative;
+    display: block;
+    height: 247.33px;
+    width: 185.33px;
+    text-decoration: none;
+}
+.thirteen__card a:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.01,1.01);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    overflow: auto;
+}
+.thirteen__card img{
+    height: auto;
+    width: 100%;
+    display: block;
+    border-style: none;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.thirteen__card .productname{
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.thirteen__card .productprice{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.thirteen__card .initialprice{
+    color: #75757a;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding-top: 4px;
+    text-decoration: line-through;
+}
+.thirteen__card .discount{
+    display: block;
+    position: absolute;
+    min-width: 40px;
+    background-color: rgb(246, 233, 209);
+    color: orange;
+    font-size: 0.75rem;
+    right: 0px;
+}
+.thirteen__card .slick-prev, .third__card .slick-next{
+    background: rgb(107, 105, 105);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 40%;
+}

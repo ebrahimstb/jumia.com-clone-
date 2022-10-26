@@ -8,15 +8,14 @@ const FifthPage = () => {
                     <h2>Dont Miss Out On These!!</h2>
                 </header>
                 <div className='fifthpage__ads'>
-                        
                      <a href="#">
                         <div className='freedelivery'></div>
                     </a>
                     <a href="#">
-                        <div className='freedelivery'></div>
+                        <div className='freedelivery' id='fredeli1'></div>
                     </a>
                     <a href="#">
-                        <div className='freedelivery'></div>
+                        <div className='freedelivery'id='fredeli2' ></div>
                     </a> 
                 </div>
             </section>

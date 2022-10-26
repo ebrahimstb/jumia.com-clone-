@@ -1,9 +1,11 @@
 .content{
-    background: #F0DCC2;
+    background: orange;
     min-height: 100%;
+    overflow: hidden;
+    flex-grow: 1;
 }
 .content__sec{
-    border: 1px solid orangered;
     max-width: 1184px;
     margin: auto;
+    padding-bottom: 56px;
 }

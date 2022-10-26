@@ -19,7 +19,7 @@
 .sfc{
     min-height: 48px;
     width: 100%;
-    background-color: pink;
+    background-color: rgb(241, 200, 208);
     font-size: 1.4rem;
     font-weight: 500;
     align-self: center;
@@ -39,21 +39,126 @@
 .Ninthpage__cards p{
     text-overflow: ellipsis;
 }
-.ninthpage__cards a{
+.Ninthpage__cards a{
     display: block;
     min-height: 137.22px;
     width: 184px;
-    border: 1px solid blue;
     cursor: pointer;
+}
+.Ninthpage__cards a:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
 }
 .npi1{
     height: 102.22px;
     width: 184px;
-    background-color: aqua;
+    background-image: url(/src/assets/phone-deals_260x144.png);
     border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.npi1:hover{
-    transition: ease-in-out 0.1s;
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+.npi2{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/detty-december_260x14.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.npi3{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/1-laptops_260x144.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.npi4{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/gaming_260x144.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.npi5{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/kids-corner_260x144.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.npi6{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/accessories-warehouse_260x144v2.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.npi7{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/supermarket_260x144.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.npi8{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/health-beauty-deals_260x144.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.npi9{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/halfprice-store_220x220v2.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.npi10{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/home-appliances_260x144v2.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.npi11{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/electronics_260x144v2.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.npi12{
+    height: 102.22px;
+    width: 184px;
+    background-image: url(/src/assets/staying-fit_260x144.png);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

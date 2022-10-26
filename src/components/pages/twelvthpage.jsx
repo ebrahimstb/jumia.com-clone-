@@ -8,7 +8,6 @@ const TwelevthPage = () => {
                     <h2>Phone Deals</h2>
                 </header>
                 <div className='twelevethpage__ads'>
-                        
                      <a href="#">
                         <div className='freedelivery'></div>
                     </a>

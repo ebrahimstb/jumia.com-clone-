@@ -1,0 +1,364 @@
+
+
+footer{
+    z-index: 11;
+    height: 599px;
+    position: absolute;
+    /* width: 1280px; */
+    background-color: #323232;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #c7c7cd;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* footer section{
+    width: 1184px;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+} */
+#footer1{
+    background-color: #282828;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer1{
+    height: 152px;
+    width: 1184px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.jumiafooter__logo{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    align-self: flex-start;
+}
+.jumiafooter__logo span{
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.footerform{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+}
+.ffup{
+    height: 30%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.ffup div{
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.ffup span{
+    margin-top: -10px;
+    padding-top: -10px;
+    font-size: 0.75rem;
+}
+.footerform form{
+    height: 30%;
+}
+#fmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 502px;
+}
+.fmail{
+    width: max-content;
+    height: 48px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+}
+.fmail i{
+    font-size: 1.5rem;
+    padding-right: 10px;
+}
+.fmail input{
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+.fmailbtn{
+    display: flex;
+    width: 214.7px;
+    justify-content: space-evenly;
+}
+.footerform form div button{
+    padding: 14px 24px;
+    border-radius: 3px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+.footerapps{
+    width: 296px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.writeups{
+    height: 40px;
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
+}
+.jumiastar{
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    background-image: url(/src/assets/JUMIA\ STAR.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faw{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.faw div{
+    font-weight: 700;
+    color: white;
+    font-size: 0.75rem;
+}
+.faw span{
+    font-size: 0.72rem;
+}
+.footer__playstore{
+    height: 48px;
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+}
+#fpgd{
+    display: block;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 32px;
+    width: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fpgd:hover{
+    border: 1px solid orange;
+    color: orange;
+}
+.footer__google{
+    height: 22px;
+    width: 88px;
+    background-image: url(/src/assets/google_play_badge@en_2x-ad41a4d7.png);
+    background-position: center;
+    background-size: cover;
+}
+#fpad{
+    display: block;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 32px;
+    width: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fpad:hover{
+    border: 1px solid orange;
+    color: orange;
+}
+.footer__apple{
+    height: 22px;
+    width: 88px;
+    background-image: url(/src/assets/appstore_badge@en_2x-5a6e21e0.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#footer2{
+    width: 100vw;
+    align-self: center;
+}
+.footer2{
+    height: 232px;
+    width: 1184px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px;
+}
+.luhy{
+    height: 228px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    align-self: flex-start;
+}
+.luhy span{
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 700;
+}
+.luhy ul{
+    list-style: none;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -40px;
+}
+.luhy ul li{
+    line-height: 1.4;
+}
+.luhy ul li a{
+    color: #c7c7cd;
+    display: inline-block;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+.luhy ul li a:hover{
+    text-decoration: underline;
+}
+
+.aj{
+    max-height: 228px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    align-self: flex-start;
+}
+.aj span{
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 700;
+}
+.aj ul{
+    list-style: none;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -40px;
+}
+.aj ul li{
+    line-height: 1.4;
+}
+.aj ul li a{
+    color: #c7c7cd;
+    display: inline-block;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+.aj ul li a:hover{
+    text-decoration: underline;
+}
+
+.mmwj{
+    max-height: 228px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    align-self: flex-start;
+}
+.mmwj span{
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 700;
+}
+.mmwj ul{
+    list-style: none;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -40px;
+}
+.mmwj ul li{
+    line-height: 1.4;
+}
+.mmwj ul li a{
+    color: #c7c7cd;
+    display: inline-block;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+.mmwj ul li a:hover{
+    text-decoration: underline;
+}
+
+.jintl{
+    max-height: 228px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    align-self: start;
+}
+.jintl span{
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 700;
+}
+.jul{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.jintl ul{
+    list-style: none;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -40px;
+}
+.jintl ul li{
+    line-height: 1.4;
+}
+.jintl ul li a{
+    color: #c7c7cd;
+    display: inline-block;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+.jintl ul li a:hover{
+    text-decoration: underline;
+}
+

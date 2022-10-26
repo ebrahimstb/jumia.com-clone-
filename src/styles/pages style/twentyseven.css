@@ -1,0 +1,134 @@
+.twentysevenpage{
+    margin-bottom: 18px;
+    border-radius: 7px;
+}
+
+.twentysevenpage section{
+    border-radius: 7px;
+    height: 319.33px;
+    background-color: white ;
+}
+.twentysevenpage__header{
+    background-color: pink;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px 7px 0px 0px;
+    border-bottom: 1px solid rgb(243, 237, 237);
+}
+.td__com1{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.td__com1 h2{
+    font-weight: 500;
+    font-size: 1.45rem;
+}
+.td__com1 span{
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.td__com2{
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+.td__com2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-right: 5px;
+}
+.td__com2 i{
+    font-weight: bolder;
+    align-self: center;
+    color: black;
+    margin-top: 6px;
+}
+
+
+.twentysevenpage__slider{
+    width: 1168px;
+    height: 271.33px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+.twentyseven__slider{
+    width: 100%;
+    display: block;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+.twentyseven__card{
+    height: 263.33px;
+    width: 193.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    padding:0px 0px 0px 5px;
+}
+
+.twentyseven__card a{
+    position: relative;
+    display: block;
+    height: 247.33px;
+    width: 185.33px;
+    text-decoration: none;
+}
+.twentyseven__card a:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.01,1.01);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    overflow: auto;
+}
+.twentyseven__card img{
+    height: auto;
+    width: 100%;
+    display: block;
+    border-style: none;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.twentyseven__card .productname{
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.twentyseven__card .productprice{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.twentyseven__card .initialprice{
+    color: #75757a;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding-top: 4px;
+    text-decoration: line-through;
+}
+.twenty__card .discount{
+    display: block;
+    position: absolute;
+    min-width: 40px;
+    background-color: rgb(246, 233, 209);
+    color: orange;
+    font-size: 0.75rem;
+    right: 0px;
+}
+.twenty__card .slick-prev, .third__card .slick-next{
+    background: rgb(107, 105, 105);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 40%;
+}

@@ -11,47 +11,47 @@ const NinthPage = () => {
                         <p>Phone Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi2'></div>
                         <p>Fashion Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi3'></div>
                         <p>Computing Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi4'></div>
                         <p>Gaming Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi5'></div>
                         <p>Kids & Bay Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi6'></div>
                         <p>Accessory Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi7'></div>
                         <p>Supermarket Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi8'></div>
                         <p>Beauty Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi9'></div>
                         <p>Halfprice Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi10'></div>
                         <p>Home Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi11'></div>
                         <p>Electronics Deals</p>
                     </a>
                     <a href="#">
-                        <div className='npi1'></div>
+                        <div className='npi12'></div>
                         <p>Fitnss Deals</p>
                     </a>    
                 </div>

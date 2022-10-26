@@ -39,7 +39,22 @@
     background-color: grey;
     width: 372px;
     height: 252px;
-    background-image: url(/src/assets/378x252_copy_24\ \(1\).jpg);
+    background-image: url(/src/assets/hps-phones_378x252.png);
+}
+
+.twelevethpage a:nth-child(2) .freedelivery{
+    border-radius: 7px;
+    background-color: grey;
+    width: 372px;
+    height: 252px;
+    background-image: url(/src/assets/seeti1.jpg);
+}
+.twelevethpage a:nth-child(3) .freedelivery{
+    border-radius: 7px;
+    background-color: grey;
+    width: 372px;
+    height: 252px;
+    background-image: url(/src/assets/seeti2.jpg);
 }
 .twelevethpage .freedelivery:hover{
     transition: ease-in-out 0.1s;

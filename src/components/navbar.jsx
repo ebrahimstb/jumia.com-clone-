@@ -5,7 +5,7 @@ const Navbar = () => {
     return ( 
         <div className='navbar'>
             <section>
-                <div className='jumia__logo'>JUMIA <span><Icon.StarFill /></span> </div>
+                <div className='jumia__logo'> </div>
                 <form action="" className='search'>
                     <div className='search__fill'>
                         <i><Icon.Search /></i>

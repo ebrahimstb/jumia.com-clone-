@@ -1,14 +1,95 @@
 .secondpage{
     min-width: 100%;
     max-width: 100%;
-    width: 100%;
-    padding-top: 18px;
+    height: 197px;
+    border-radius: 7px;
+    margin-top: 18px;
+    background-color: white;
+    display: inline-block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid crimson;
+    background-color: white; */
 }
 
-.secondpage section{
-    border-radius: 7px;
-    width: 100%;
+#secondpage{
+    min-width: 100%;
+    max-width: 100%;
     height: 187px;
-    background: white;
+    border-radius: 7px;
+    margin-top: 18px;
     background-color: white;
+    display: inline-block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid crimson;
+    background-color: white; */
 }
+#secondpage .slider{
+    display: block;
+    padding: 0px 70px;
+    overflow: hidden;
+}
+
+.card a{
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.card span{
+    max-width: 12px;
+}
+#secondpage .slick list{
+    margin: 0px -10px;
+}
+.card{
+    height: 177px;
+    width: 133px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: center;
+}
+#secondpage .card:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.01, 1.01);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+}
+.sslide__pic img{
+    height: 125px;
+    width: 125px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#secondpage .slick-prev, #secondpage    .slick-next{
+    background: rgb(107, 105, 105);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 40%;
+}
+#secondpage .slick-next{
+    right: 20px;
+}
+#secondpage .slick-prev{
+    left: 20px;
+}
+#secondpage .slick-prev:hover, .slick-next:hover{
+    background: rgb(107, 105, 105);
+
+}
+/* .sslide__pic{
+    height: 125px;
+    width: 125px;
+    background-image: url(/src/assets/);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */

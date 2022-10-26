@@ -46,6 +46,12 @@
     transform: scale(1.1);
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
+#fredeli1{
+    background-image: url(/src/assets/anchor_378x252.jpg);
+}
+#fredeli2{
+    background-image: url(/src/assets/drok.jpg);
+}
 /* .fifthpage__ads{
     display: flex;
 }

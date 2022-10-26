@@ -1,0 +1,84 @@
+.eighteenpage{
+    margin-top: 18px;
+}
+
+.main__eighteenpage{
+    height: 118.22px;
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+}
+.ep{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.ep a{
+    display: block;
+    width: 184px;
+    cursor: pointer;
+    padding-bottom: 9px;
+}
+.ep a:first-child .ep__pic{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/nestle_260x144.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+.ep a:nth-child(2) .ep__pic{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/bacardi_260x144.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+.ep a:nth-child(3) .ep__pic{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/diageo_260x144.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+.ep a:nth-child(4) .ep__pic{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/jbl_260x144.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+.ep a:nth-child(5) .ep__pic{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/tcl_260x144.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+.ep a:nth-child(6) .ep__pic{
+    height: 102.22px;
+    width: 184px;
+    background-color: white;
+    background-image: url(/src/assets/all-brands_260x144.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+.ep a:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(25, 24, 24, 0.2);
+}

@@ -56,6 +56,7 @@
 }
 .tl span{
  font-weight: 900;
+ padding-right: 5px;
 }
 .sa{
     padding-right: 50px;
@@ -63,4 +64,86 @@
 .sa h2{
     font-size: 1rem;
     font-weight: 500;
+}
+.thirdpage__slider{
+    width: 1168px;
+    height: 271.33px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+.third__slider{
+    width: 100%;
+    display: block;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+.third__card{
+    height: 263.33px;
+    width: 193.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    padding:0px 0px 0px 5px;
+}
+
+.forth__card a{
+    position: relative;
+    display: block;
+    height: 247.33px;
+    width: 185.33px;
+    text-decoration: none;
+}
+.forth__card a:hover{
+    transition: ease-in-out 0.1s;
+    transform: scale(1.01,1.01);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+    overflow: auto;
+}
+.forth__card img{
+    height: auto;
+    width: 100%;
+    display: block;
+    border-style: none;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.forth__card .productname{
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.forth__card .productprice{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.forth__card .initialprice{
+    color: #75757a;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding-top: 4px;
+    text-decoration: line-through;
+}
+.forth__card .discount{
+    display: block;
+    position: absolute;
+    min-width: 40px;
+    background-color: rgb(246, 233, 209);
+    color: orange;
+    font-size: 0.75rem;
+    right: 0px;
+}
+.forth__card .slick-prev, .forth__card .slick-next{
+    background: rgb(107, 105, 105);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 40%;
 }

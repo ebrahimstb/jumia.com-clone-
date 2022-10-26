@@ -31,7 +31,11 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-color: green;
+    background-color: orange;
+    background-image: url(/src/assets/free-delivery_100x100.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-left: 15px;
     margin-right: 20px;
 }
@@ -46,7 +50,11 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-color: green;
+    background-color: orange;
+    background-image: url(/src/assets/jumia-prime_v3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-left: 15px;
     margin-right: 20px;
 }
@@ -61,7 +69,11 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-color: green;
+    background-color: orange;
+    background-image: url(/src/assets/jumia-pay.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-left: 15px;
     margin-right: 20px;
 }
@@ -76,7 +88,11 @@
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-color: green;
+    background-color: orange;
+    background-image: url(/src/assets/jumia-food.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-left: 15px;
     margin-right: 20px;
 }

@@ -9,10 +9,10 @@ const SixthPage = () => {
                            <div className='freedelivery'></div>
                        </a>
                        <a href="#">
-                           <div className='freedelivery'></div>
+                           <div className='freedelivery' id='freli1'></div>
                        </a>
                        <a href="#">
-                           <div className='freedelivery'></div>
+                           <div className='freedelivery' id='freli2'></div>
                        </a> 
                    </div>
             </section>

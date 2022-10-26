@@ -1,0 +1,23 @@
+.goup{
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+    right: 0px;
+    bottom: 0px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid lightsteelblue;
+}
+.goup:hover{
+    background-color: rgb(241, 221, 224);
+}
+.goup i{
+    color: rebeccapurple;
+    align-self: center;
+}
